@@ -64,7 +64,7 @@ To view the API documentation, open your browser and go to:
 > Documentation is generated using Swagger.
 > Also Comments and JsDoc were provided for easy navigation
 
-### 6. Unit Testing
+### 7. Unit Testing
 
 To run unit test, run this command:
 
