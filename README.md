@@ -1,6 +1,6 @@
-#Event Categories Management API
+# Event Categories Management API
 
-This project is a backend application built with NestJS, PostgreSQL (running in Docker), and TypeORM. The sections below provides step-by-step guides for setting it up, including running PostgreSQL in Docker, setting up the environment variables.
+This project is a backend application built with NestJS, PostgreSQL (running on Docker), and TypeORM. The sections below provides step-by-step guides for setting it up, including running PostgreSQL in Docker and setting up the environment variables.
 
 ## Prerequisites
 
@@ -47,9 +47,9 @@ The command below sets up the Postgres image container and creates the DB as def
 docker-compose up -d
 ```
 
-### 5. Start App
+### 5. Start Application 
 
-Running the command below to start the app.
+Run the command below to start the app.
 
 ```bash
 npm start
@@ -63,3 +63,11 @@ To view the API documentation, open your browser and go to:
 
 > Documentation is generated using Swagger.
 > Also Comments and JsDoc were provided for easy navigation
+
+### 7. Unit Testing
+
+To run unit test, run this command:
+
+```bash
+npm run test:cov
+```
