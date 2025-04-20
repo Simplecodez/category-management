@@ -47,9 +47,9 @@ The command below sets up the Postgres image container and creates the DB as def
 docker-compose up -d
 ```
 
-### 5. Start App
+### 5. Start Application 
 
-Running the command below to start the app.
+Run the command below to start the app.
 
 ```bash
 npm start
